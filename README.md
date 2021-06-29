@@ -1,18 +1,19 @@
 # VK_test_case
 
 ## Оглавление
-1. [Контакты](https://github.com/Simraki/VK_test_case#Контакты)
-2. [Комментарии](https://github.com/Simraki/VK_test_case#Комментарии)
-3. [Пример](https://github.com/Simraki/VK_test_case#Пример)
-    1. [Подземелье](https://github.com/Simraki/VK_test_case#Подземелье)
-    2. [JSON-запросы](https://github.com/Simraki/VK_test_case#JSON-запросы)
-        - [setDungeon](https://github.com/Simraki/VK_test_case#setDungeon)
-        - [setStart](https://github.com/Simraki/VK_test_case#setStart)
-        - [setPlayer](https://github.com/Simraki/VK_test_case#setPlayer)
-        - [movePlayer](https://github.com/Simraki/VK_test_case#movePlayer)
+1. [Контакты](#contacts)
+2. [Комментарии](#comments)
+3. [Пример](#example)
+    1. [Подземелье](#example)
+    2. [JSON-запросы](#json-example)
+        - [setDungeon](#set-dungeon)
+        - [setStart](#set-start)
+        - [setPlayer](#set-player)
+        - [movePlayer](#move-player)
 
 ____
 
+<a name="contacts"></a>
 ## Контакты
 - :mailbox: *simraki@mail.ru*
 - :iphone: *8 (923) 515-85-44*
@@ -20,6 +21,7 @@ ____
 
 **Желательный тип связи:** ВК, почта
 
+<a name="comments"></a>
 ## Комментарии
 Порядок: setDungeon -> setStart -> setPlayer -> movePerson
 
@@ -28,13 +30,16 @@ ____
 -1 обозначает выход
 
 ____
+<a name="example"></a>
 ## Пример
 ### Подземелье
 
 **Схема подземелья:**
 ![Схема подземелья](https://github.com/Simraki/VK_test_case/blob/master/EXAMPLE/example.png)
 
+<a name="json-example"></a>
 ### JSON-запросы 
+<a name="set-dungeon"></a>
 #### setDungeon
 
 ```json
@@ -99,6 +104,7 @@ ____
 }
 ```
 
+<a name="set-start"></a>
 #### setStart
 
 ```json
@@ -112,6 +118,7 @@ ____
 }
 ```
 
+<a name="set-player"></a>
 #### setPlayer
 
 ```json
@@ -125,6 +132,7 @@ ____
 }
 ```
 
+<a name="move-player"></a>
 #### movePlayer
 
 ```json
