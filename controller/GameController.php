@@ -22,7 +22,7 @@ class GameController {
         return Dungeon::create()->setStartRoom($id_room);
     }
 
-    public static function movePerson(object $player): object {
+    public static function movePlayer(object $player): object {
         // TODO: GameController не должен знать про формирование ответа => interface?
         $load = null;
         if (self::isGameFinished()) {

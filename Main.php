@@ -32,7 +32,7 @@ class Main {
     }
 
     public function move($params): void {
-        $response = GameController::movePerson($params->player);
+        $response = GameController::movePlayer($params->player);
         if (isset($response->error)) {
             Utils::error($response->error);
             return;
