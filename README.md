@@ -3,12 +3,13 @@
 ## Оглавление
 1. [Контакты](https://github.com/Simraki/VK_test_case#Контакты)
 2. [Комментарии](https://github.com/Simraki/VK_test_case#Комментарии)
-3. [Пример. Подземелье](https://github.com/Simraki/VK_test_case#Пример.Подземелье)
-4. [Пример. JSON-запросы](https://github.com/Simraki/VK_test_case#Пример.JSON-запросы)
-    - [setDungeon](https://github.com/Simraki/VK_test_case#setDungeon)
-    - [setStart](https://github.com/Simraki/VK_test_case#setStart)
-    - [setPlayer](https://github.com/Simraki/VK_test_case#setPlayer)
-    - [movePlayer](https://github.com/Simraki/VK_test_case#movePlayer)
+3. [Пример](https://github.com/Simraki/VK_test_case#Пример)
+    1. [Подземелье](https://github.com/Simraki/VK_test_case#Подземелье)
+    2. [JSON-запросы](https://github.com/Simraki/VK_test_case#JSON-запросы)
+        - [setDungeon](https://github.com/Simraki/VK_test_case#setDungeon)
+        - [setStart](https://github.com/Simraki/VK_test_case#setStart)
+        - [setPlayer](https://github.com/Simraki/VK_test_case#setPlayer)
+        - [movePlayer](https://github.com/Simraki/VK_test_case#movePlayer)
 
 ____
 
@@ -27,14 +28,14 @@ ____
 -1 обозначает выход
 
 ____
-
-## Пример.Подземелье
+## Пример
+### Подземелье
 
 **Схема подземелья:**
-![Схема подземелья](https://github.com/Simraki/VK_test_case/blob/master/OPENME/example.png)
+![Схема подземелья](https://github.com/Simraki/VK_test_case/blob/master/EXAMPLE/example.png)
 
-## Пример.JSON-запросы 
-### setDungeon
+### JSON-запросы 
+#### setDungeon
 
 ```json
 {
@@ -98,7 +99,7 @@ ____
 }
 ```
 
-### setStart
+#### setStart
 
 ```json
 {
@@ -111,7 +112,7 @@ ____
 }
 ```
 
-### setPlayer
+#### setPlayer
 
 ```json
 {
@@ -124,7 +125,7 @@ ____
 }
 ```
 
-### movePlayer
+#### movePlayer
 
 ```json
 {
