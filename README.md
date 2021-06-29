@@ -1,14 +1,15 @@
 # VK_test_case
 
 ## Контакты
-:mailbox: *simraki@mail.ru*
-:iphone: *8 (923) 515-85-44*
-:speech_balloon: *vlad0kg*
+- :mailbox: *simraki@mail.ru*
+- :iphone: *8 (923) 515-85-44*
+- :speech_balloon: *vlad0kg*
 
 **Желательный тип связи:** ВК, почта
 
 ## Комментарии
 Выход создается в подземелье путем вставки в room->links числа -1.
+
 -1 обозначает выход
 
 ____
@@ -16,9 +17,9 @@ ____
 ## Пример
 
 **Схема подземелья:**
-![Схема подземелья](https://github.com/Simraki/VK_test_case/raw/master/openme/example.png)
+![Схема подземелья](https://github.com/Simraki/VK_test_case/blob/master/OPENME/example.png)
 
-
+## Примеры JSON-запросов 
 ### setDungeon
 
 ```json
