@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     error(ERR_INVALID_PARAMS, $method);
                 }
-            } elseif ($method === "movePerson") {
+            } elseif ($method === "movePlayer") {
                 if (DataCheck::checkDataMove($params)) {
                     $main->move($params);
                 } else {
