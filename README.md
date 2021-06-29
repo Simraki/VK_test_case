@@ -1,5 +1,17 @@
 # VK_test_case
 
+## Оглавление
+1. [Контакты](https://github.com/Simraki/VK_test_case#Контакты)
+2. [Комментарии](https://github.com/Simraki/VK_test_case#Комментарии)
+3. [Пример. Подземелье](https://github.com/Simraki/VK_test_case#Пример.Подземелье)
+4. [Пример. JSON-запросы](https://github.com/Simraki/VK_test_case#Пример.JSON-запросы)
+    - [setDungeon](https://github.com/Simraki/VK_test_case#setDungeon)
+    - [setStart](https://github.com/Simraki/VK_test_case#setStart)
+    - [setPlayer](https://github.com/Simraki/VK_test_case#setPlayer)
+    - [movePlayer](https://github.com/Simraki/VK_test_case#movePlayer)
+
+____
+
 ## Контакты
 - :mailbox: *simraki@mail.ru*
 - :iphone: *8 (923) 515-85-44*
@@ -8,18 +20,20 @@
 **Желательный тип связи:** ВК, почта
 
 ## Комментарии
+Порядок: setDungeon -> setStart -> setPlayer -> movePerson
+
 Выход создается в подземелье путем вставки в room->links числа -1.
 
 -1 обозначает выход
 
 ____
 
-## Пример
+## Пример.Подземелье
 
 **Схема подземелья:**
 ![Схема подземелья](https://github.com/Simraki/VK_test_case/blob/master/OPENME/example.png)
 
-## Примеры JSON-запросов 
+## Пример.JSON-запросы 
 ### setDungeon
 
 ```json
@@ -110,11 +124,11 @@ ____
 }
 ```
 
-### movePerson
+### movePlayer
 
 ```json
 {
-    "method": "movePerson",
+    "method": "movePlayer",
     "params": {
         "player": {
             "direction_to": 2
